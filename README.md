@@ -106,8 +106,8 @@ GDSMVC/
 | `--con_epochs` | Contrastive training epochs | 100 |
 | `--low_feature_dim` | Encoder output dimension | 512 |
 | `--high_feature_dim` | Projection head dimension | 128 |
-| `--temperature_f` | Temperature for feature contrast | 0.8 |
-| `--temperature_l` | Temperature for label contrast | 0.5 |
+| `--temperature_f` | Temperature for feature contrast | 0.5 |
+| `--temperature_l` | Temperature for label contrast | 0.8 |
 | `--lambda_1` | Weight for orthogonal/alignment/uncertainty loss | 0.01 |
 | `--lambda_2` | Weight for label alignment loss | 0.001 |
 | `--lambda_3` | Weight for structure-guided contrastive loss | 0.001 |
